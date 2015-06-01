@@ -1,0 +1,66 @@
+<div class="container-fluid">
+    <div class="col-md-12">
+        <div id="players-panel" class="box">
+            <div class="box-content">
+                <p><a href="/">Home</a><% if (req.session.me) { %> | Hi <%= req.session.name %> (<a href="/logout">logout</a>)<% } %></p>
+                <% if (req.session.me) { %>
+
+                <table id="status-table" class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Status</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <p><small class="info">Change your status to <strong>ready</strong> to join the quiz</small></p>
+            </div>
+        </div>
+
+        <div id="quiz-panel" class="box">
+            <div class="box-content">
+                <div id="quiz-settings">
+                    <p>Select a quiz and the amount of questions:</p>
+                    <select id="quiz-dropdown" class="form-control"></select>
+                    <p>Questions: <input type="number" id="amount" value="10" min="5" max="99" /> <button type="button" id="startQuiz" class="btn btn-default" disabled="disabled">Start Quiz!</button></p>
+                    <p><a href="#rules" id="rules-cta">Show/Hide rules</a></p>
+                    <ul id="rules">
+                        <li>Minimum 2 players <strong>ready</strong> required</li>
+                        <li>The fastest player selecting the correct answer wins 1 point</li>
+                        <li>Whoever has more points wins the quiz</li>
+                    </ul>
+                </div>
+
+                <div id="quiz">
+                    <h3 id="title"></h3>
+                    <span id="author"></span>
+                    <h4 id="question"></h4>
+                    <table id="questions" class="table table-bordered table-hover"><tbody></tbody></table>
+                    <p id="question-winner"></p>
+                    <p id="quiz-status"><small id="quiz-message"></small><span id="countdown" class="start"></span></p>
+                    <p>Quiz progress: <progress id="progress" value="0" max="100"></progress><p/>
+                    <p><small class="info">You can leave the quiz anytime by refreshing the page</small></p>
+                </div>
+
+                <div id="winner">
+                    <div id="winner-image"></div>
+                    <p id="winner-message"></p>
+                    <p><button type="button" id="restart" onClick="window.location.reload()" class="btn btn-default">Restart</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="chat-panel" class="box">
+            <div class="box-content">
+                <textarea id="messages" class="form-control" readonly></textarea>
+                <input type="text" id="message" name="message" class="form-control" placeholder="Type here">
+                <% } else { %>
+                    <p>You are not logged in.</p>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</div>
+

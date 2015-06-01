@@ -1,0 +1,182 @@
+{
+    "title": "Javascript Quiz",
+    "author": "About.com",
+    "questions": [{
+        "question" : "Which of the following is a risk of using Constructor function?",
+        "answers" : [	"If it is invoked without using <code>new</code> keyword, the <code>this</code> variable is not bound to local object but to the global namespace.",
+        				"Performance risk",
+        				"There are no risks"],
+        "correct_answer" : "0"
+    }, {
+    	"question" : "A property of myobj is defined using",
+        "answers" : [	"property myobj x",
+        				"myobj.x",
+        				"myobj property x",
+        				"var x propertyOf myobj"],
+        "correct_answer" : "1"
+    }, {
+    	"question" : "What value is returned when a Confirm box is cancelled?",
+        "answers" : [	"true",
+        				"false",
+        				"'cancel'",
+        				"'undo'"],
+        "correct_answer" : "1"
+    }, {
+    	"question" : "Most event handlers are added",
+        "answers" : [	"to an external Javascript",
+        				"to any Javascript code",
+        				"anywhere in the HTML",
+        				"within the HTML that is to trigger the event"],
+        "correct_answer" : "3"
+    }, {
+    	"question" : "Which DOM is ONLY supported by one browser version?",
+        "answers" : [	"getElementById",
+        				"layer",
+        				"all"],
+        "correct_answer" : "1"
+    }, {
+    	"question" : "Some Javascripts can only be defined externally",
+        "answers" : [	"true",
+        				"false"],
+        "correct_answer" : "1"
+    }, {
+    	"question" : "Almost no one uses IE4 any more so which DOM is least useful to include?",
+        "answers" : [	"layer",
+        				"getElementById",
+        				"all"],
+        "correct_answer" : "2"
+    }, {
+    	"question" : "Which of these is not a logical operator?",
+        "answers" : [	"&&",
+        				"&",
+        				"||",
+        				"!"],
+        "correct_answer" : "1"
+    }, {
+    	"question" : "Clicking a field with the mouse will not trigger which event",
+        "answers" : [	"onfocus",
+        				"onclick",
+        				"onkeydown",
+        				"onmousedown"],
+        "correct_answer" : "2"
+    }, {
+    	"question" : "How would you change a date to one week later?",
+        "answers" : [	"myDate.chgDate(7);",
+        				"myDate.setDate(myDate.getDate()+7);",
+        				"myDate.setDate(+7);",
+        				"myDate.chgDate(myDate.getDate()+7);"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "Which event do you use to run something after the page has finished loading?",
+        "answers" : [   "onfinished",
+                        "onload",
+                        "onunload",
+                        "oncomplete"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "Which event tests if a form field has changed?",
+        "answers" : [   "onsubmit",
+                        "onblur",
+                        "onchange",
+                        "onclick"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "What statement supplies the value of the function?",
+        "answers" : [   "return",
+                        "cancel",
+                        "continue",
+                        "valueOf"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "To calculate the area of a circle the formula pi r squared is used. How would you code it?",
+        "answers" : [   "area = pi * r ^2;",
+                        "area = Math.PI * r^2;",
+                        "area = Math.PI * Math.sqr(r);",
+                        "area = Math.PI * r * r;"],
+        "correct_answer" : "3"
+    }, {
+        "question" : "If a browser has Javascript turned off it will",
+        "answers" : [   "ignore all <code>&lt;script&gt;</code> and <code>&lt;noscript&gt;</code> tags",
+                        "display the content of <code>&lt;script&gt;</code> tags",
+                        "display the content of <code>&lt;noscript&gt;</code> tags",
+                        "display the content of <code>&lt;script&gt;</code> and <code>&lt;noscript&gt;</code> tags"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "How can you convert information consisting of comma separated values into an array?",
+        "answers" : [   "txtArray = txt.indexOf(',');",
+                        "txtArray = txt.split(',');",
+                        "txtArray = txt.trim(',');",
+                        "txtArray = txt.substring(',');"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "Which event is triggered when a field loses the focus?",
+        "answers" : [   "onmouseout",
+                        "onblur",
+                        "onunfocus",
+                        "onkeyup"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "What is 12%5 ?",
+        "answers" : [   "7",
+                        "2",
+                        "60",
+                        "17"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "Which of these statements is true?",
+        "answers" : [   "arguments are parameters",
+                        "arguments and parameters must have the same name",
+                        "arguments are placeholders",
+                        "arguments are disagreements between parameters"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "Which event is triggered automatically at regular intervals?",
+        "answers" : [   "onload",
+                        "setTimeout",
+                        "setInterval",
+                        "setAutomatic"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "Which of the following does not result in a variable going out of scope?",
+        "answers" : [   "End of the block in which it was defined",
+                        "Start of a block in which a like named variable is defined",
+                        "when a function is called",
+                        "when the program finishes running"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "How do you locate the first X in a string?",
+        "answers" : [   "txt.find('X');",
+                        "txt.locate('X');",
+                        "txt.indexOf('X');",
+                        "txt.countTo('X');"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "Which of these is not a comparison operator?",
+        "answers" : [   "<",
+                        ">",
+                        "=",
+                        "!="],
+        "correct_answer" : "2"
+    }, {
+        "question" : "The content of your web page are contained directly within which object?",
+        "answers" : [   "window",
+                        "browser",
+                        "document",
+                        "frameset"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "Which of these contains an executable statement?",
+        "answers" : [   "// var a = 0; // var b = 0;",
+                        "/* var a = 0; // var b = 0; */",
+                        "/* var a = 0; */ var b = 0;",
+                        "// var a = 0; /* var b = 0; */"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "What method can't be used with a window object?",
+        "answers" : [   "open",
+                        "read",
+                        "write",
+                        "close"],
+        "correct_answer" : "1"
+    }]
+}

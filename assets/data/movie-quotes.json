@@ -1,0 +1,136 @@
+{
+    "title": "Movie Quotes Quiz",
+    "author": "Chapman Lee",
+    "questions": [{
+        "question" : "Which famous character was most know for the phrase 'Shanken, not stirred'?",
+        "answers" : [	"James Bond",
+        				"James T. Kirk",
+        				"Sean Connery",
+                        "Jedi"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "'I'll be back' was a famous quote by Arnold Schwarzenegger in which film?",
+        "answers" : [   "Commando",
+                        "Jaws",
+                        "The Terminator",
+                        "The Terminal"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "'May the Force be with you' is a quote from which movie?",
+        "answers" : [   "SpaceBalls",
+                        "Taxi Driver",
+                        "E.T. the Extra-Terrestrial",
+                        "Star Wars"],
+        "correct_answer" : "3"
+    }, {
+        "question" : "Which famous quote was from the film The Wizard of OZ",
+        "answers" : [   "'There's no business like show business'",
+                        "'There's no place like home'",
+                        "'Round up the usual suspects"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "'I see dead people' is a quote from which film?",
+        "answers" : [   "The Sixth Sense",
+                        "Signs",
+                        "The Shining"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "Which notable quote was first said in the film Apollo 13 by Tom Hanks",
+        "answers" : [   "We rob banks",
+                        "Houston, we have a problem",
+                        "There's no crying in baseball"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "'My precious' is a quote from which Lord of The Rings character?",
+        "answers" : [   "Bilbo Baggins",
+                        "Gandalf The White",
+                        "Gollum"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "In Titanic what did Jack yell at the front of the boat?",
+        "answers" : [   "I'm the king of the world",
+                        "I'm Flying",
+                        "My heart will go on"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "'Elementary, my dear Watson' is a quote from which character?",
+        "answers" : [   "Sherlock Holmes",
+                        "Mycroft Holmes",
+                        "Irene Adler",
+                        "Dr. John Watson"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "Which quote came from the film Casablanca?",
+        "answers" : [   "Say 'hello' to my little friend!",
+                        "Of all the gin joints in all the towns in all the world, she walks into mine",
+                        "As God is my witness, I'll never be hungrey again",
+                        "Gentlemen, you can't fight in here! This is a War Room!"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "'Here's Johnny!' is a quote from which movie adaptation of Stephen King's books?",
+        "answers" : [   "Carrie",
+                        "Cujo",
+                        "The Shining",
+                        "The Shawshank Redemption"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "Complete the famous quote 'Mrs. Robinson, you're trying to ________ _________. Aren't you?'",
+        "answers" : [   "kill me",
+                        "rob me",
+                        "seduce me"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "'You're gonna need a bigger boat.' is a line from which famous shark related movie?",
+        "answers" : [   "Deep Blue Sea",
+                        "Sharknado",
+                        "Ghost Ship",
+                        "Jaws"],
+        "correct_answer" : "3"
+    }, {
+        "question" : "What is Travis Bickle most well know phrase (played by Robert De Niro) in the film Taxi Driver",
+        "answers" : [   "You talkin' to me?",
+                        "There's no place like home",
+                        "Louis, I think this is the begining of a beautiful friendship"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "The phrase 'Go ahead, make my day' was said by which famous actor who played Harry Callahan in Sudden Impact?",
+        "answers" : [   "Sean Connery",
+                        "Sylvester Stallone",
+                        "Clint Eastwood",
+                        "Jason Statham"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "Which film did the phrase 'I'm going to make him an offer he can't refuse.' originate from?",
+        "answers" : [   "Scarface",
+                        "Taxi Driver",
+                        "Gran Turino",
+                        "The Godfather"],
+        "correct_answer" : ""
+    }, {
+        "question" : "Complete the phrase, '...Bond, _______ Bond.",
+        "answers" : [   "Jackie",
+                        "Jamie",
+                        "James",
+                        "John"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "In which comedic film was the phrase 'Surely you can't be serious.' and 'I am serious... and don't call me Shirley' come from?",
+        "answers" : [   "Airplane!",
+                        "Naked Gun",
+                        "Scary Movie"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "In which Robin Williams film was the phrase 'Carpe diem. Seize the day boys. Make your lives extraordinary'?",
+        "answers" : [   "Mrs. Doubtfire",
+                        "Flubber",
+                        "Dead Poets Society"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "During the attack on the Death Star in Star Wars: A New Hope who said the phrase 'Use the force, Luke'?",
+        "answers" : [   "Obi-Wan Kenobi",
+                        "Darth Vader",
+                        "Han Solo",
+                        "Mace Windu"],
+        "correct_answer" : "0"
+    }]
+}

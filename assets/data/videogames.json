@@ -1,0 +1,314 @@
+{
+    "title": "Video Game Quiz by Chapman Lee and Joan 'Pach' Mira",
+    "questions": [{
+        "question" : "What is the Konami Code?",
+        "answers" : [	"Up, Up, Down, Down, Left, Left, Right, Right, Start, Enter",
+        				"Up, Up, Down, Down, Left, Right, Left, Right, B, A, Start",
+        				"~ Konami",
+                        "Start, Select, Left, Right, Left, Right, Up, Down, Up, Down"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "What's the most popular drink in Monkey Island?",
+        "answers" : [   "Grog",
+                        "Ale",
+                        "Coconut"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "What is the name of the girl in the 'Day of the Tentacle?'/'Maniac Mansion II: Day of the Tentacle'?",
+        "answers" : [   "Bernard",
+                        "Hoagie",
+                        "Laverne",
+                        "Ashleigh"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "What is the Japanese release title of Capcom's Resident Evil?",
+        "answers" : [   "Bio-Hazard",
+                        "House of the Dead",
+                        "Shinda",
+                        "Shinigami"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "What is the Japanese name of ISS Pro Soccer/ Pro Evolution Soccer?",
+        "answers" : [   "Elevens",
+                        "Winning Sevens",
+                        "Winning Elevens",
+                        "Izuma Eleven"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "What is the company Nintendo famous for prior to Videogames?",
+        "answers" : [   "Playing Cards",
+                        "Electronics",
+                        "Music"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "What is the first 3D Console?",
+        "answers" : [   "Nintedo 3DS",
+                        "Virtual Boy",
+                        "Playstation 3"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "Who did Sonic the Hedgehog replace as SEGA entertainment's mascot?",
+        "answers" : [   "Alex Kidd",
+                        "Ness",
+                        "NiGHTS"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "The Konami code appeared in which game first?",
+        "answers" : [   "Contra",
+                        "Sonic",
+                        "Gradius"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "Which game popularised the Konami Code?",
+        "answers" : [   "Contra",
+                        "Sonic",
+                        "Metal Gear Solid"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "In which game does the term 'Leeroy Jenkins' come from?",
+        "answers" : [   "Conker's bad fur day",
+                        "Star Trek the Game",
+                        "World of Warcrafts",
+                        "Runescape"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "Currently to date what console has been sold the most?",
+        "answers" : [   "Nintendo entertainment system (NES)",
+                        "Playstation 2 (PS2)",
+                        "GameBoy",
+                        "X-box"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "In what game is the Raccon City found?",
+        "answers" : [   "Resident Evil",
+                        "Silent Hill",
+                        "Animal Crossing"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "In which game does the player point a plastic gun at the tv screen to shoot?",
+        "answers" : [   "Duck Hunt",
+                        "Hunter",
+                        "Battlefield 1914"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "What was Mario's girlfirend's name in Donkey Kong?",
+        "answers" : [   "Peach",
+                        "Pauline",
+                        "Daisy"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "Why was the game Pac-man called Pac-man?",
+        "answers" : [   "Pac was the sound meaining eating in Japanese",
+                        "Pac man looked like a packet of pan cakes",
+                        "The creator got the idea for the game when packing boxes"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "What is the name of Chris Redfield's sister?",
+        "answers" : [   "Ada",
+                        "Jill",
+                        "Claire",
+                        "none of the above"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "In what games does the Character Pikachu come from?",
+        "answers" : [   "Digimon",
+                        "Duel Monsters",
+                        "Pokémon"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "What is the original pokedex entry for Pikachu in Pokémon Red and Blue?",
+        "answers" : [   "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
+                        "Normally found near power plants, they can wander away and cause major blackouts in cities.",
+                        "Its long tail serves as a ground to protect itself from its own high voltage power."],
+        "correct_answer" : "0"
+    }, {
+        "question" : "What game was labeled as the Worlds Worst Game?",
+        "answers" : [   "Duke Nukem Forever",
+                        "ET - Extra Terrestrial",
+                        "Grey's Anatomy - the Game"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "Who is the creator of Mario?",
+        "answers" : [   "Shigeru Miyamoto",
+                        "Hayao Miyazaki",
+                        "Hideo Kojima"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "Which Studio created Pokémon?",
+        "answers" : [   "GameFreak",
+                        "343 Industries",
+                        "Treyark"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "Which game is currently the worlds best selling game?",
+        "answers" : [   "The Sims",
+                        "Sonic Adventures",
+                        "Tetris"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "Which device was the game Snake original released on?",
+        "answers" : [   "Nokia Mobiles",
+                        "Gameboys",
+                        "Sega Saturn"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "What was the first Pokémon ever created?",
+        "answers" : [   "Pikachu",
+                        "Rhydon",
+                        "Charmander"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "In the game Super Mario Bros. the citizens of Mushroom Kingdom had been turned into what by the Koopas?",
+        "answers" : [   "Goompas",
+                        "Mushrooms",
+                        "Blocks"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "What is the name of Master Chief's AI companion?",
+        "answers" : [   "Cortana",
+                        "Siri",
+                        "Tron"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "Square-Enix's Kingdom Hearts series features both characters from Final Fantasy and also characters from which company?",
+        "answers" : [   "CartoonNetwork",
+                        "Studio Ghibli",
+                        "Dreamworks",
+                        "Disney"],
+        "correct_answer" : "3"
+    }, {
+        "question" : "What is the name of the main character which you play as in Little Big Planet?",
+        "answers" : [   "Sackboy",
+                        "Sack-doll",
+                        "Stacker"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "What was the name of Capcom's Devil May Cry originally called?",
+        "answers" : [   "Silent Hill 2",
+                        "Resident Evil 4",
+                        "Final Fantasy Undead",
+                        "Demon Hunter"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "In Sony's Playstation 2 start screen the towers in the background represented what?",
+        "answers" : [   "The saved game data in your memory card",
+                        "The size of the game your are loading",
+                        "Your internet connection speed"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "The arcade game Donkey Kong was originally planned to be a game based on what cartoon?",
+        "answers" : [   "Looney Toons",
+                        "Mikey Mouse",
+                        "Popeye"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "In what country did Tetris originate from?",
+        "answers" : [   "Russia",
+                        "America",
+                        "China"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "Tetris was based on what Russian Childhood game?",
+        "answers" : [   "Jigsaw Puzzles",
+                        "Rubix Cubes",
+                        "Sudoku",
+                        "Pentomines"],
+        "correct_answer" : "3"
+    }, {
+        "question" : "Who created Tetris?",
+        "answers" : [   "Alexey Pajitnov",
+                        "Al Alcorn",
+                        "Nolan Bushnell"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "Which console was the first to implement online play?",
+        "answers" : [   "Sega Dreamcast",
+                        "Sony Playstation 2",
+                        "X-box"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "Which video game console was the first to use DVD technology?",
+        "answers" : [   "Playstation 2",
+                        "X-box",
+                        "N64"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "Sonic the Hedgehog originally had a human girlfriend named?",
+        "answers" : [   "Susan",
+                        "Pauline",
+                        "Madonna"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "The Oculus Rift Virtual Reality googles was recently acquired by which major company?",
+        "answers" : [   "Facebook",
+                        "Google",
+                        "RBS"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "What game did player have to jump from cube to cube to change the colors of the blocks avoiding enemies?",
+        "answers" : [   "Q-bert",
+                        "Sonic",
+                        "Mario"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "Prior to being know as Mario, what was the characters original name in Donkey Kong?",
+        "answers" : [   "Pac-Man",
+                        "Mega-man",
+                        "Jump-man"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "What game required you to shoot massive chunks of rock in space?",
+        "answers" : [   "Space Invaders",
+                        "Missile Command",
+                        "Asteriods"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "What game did you control a character who digs underground and kills monsters by using rocks or pumping them with air?",
+        "answers" : [   "Dig Dug",
+                        "Earthworm Jim",
+                        "Minecraft"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "Which console was originally a cd-rom add-on to the Nintendo NES but due to Nintendo breaking their agreement became a console of its own?",
+        "answers" : [   "X-box",
+                        "SEGA Saturn",
+                        "Playstation"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "The game 'Final Fantasy' got its name from Square because of what reason?",
+        "answers" : [   "It was going to be the last game made by Square",
+                        "It was because the game was based on a story called the last fantasy",
+                        "It was Squares last hope of making a fantasy game before focusing on other series"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "The two Dr's from Megaman are based on which two real life scientists?",
+        "answers" : [   "Thomas Edison and Albert Einstein",
+                        "Charles Xavier and Magneto",
+                        "Holmes and Moriarty"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "What does the genre of games called RPG stand for?",
+        "answers" : [   "Rocket Propelled Grenades",
+                        "Role Playing Games",
+                        "Royal Princess Games"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "What does the term MOBA mean in video games?",
+        "answers" : [   "Mother of all bombs",
+                        "Multiplayer Online Battle Arena",
+                        "Multiple Online Battling Access"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "Modern Warfare, World at War and Black Ops are all from which franchise?",
+        "answers" : [   "Battle Field ",
+                        "Call of Duty",
+                        "Medal of Honour"],
+        "correct_answer" : "1"
+    }, {
+        "question" : "Which game has the biggest map in videogames?",
+        "answers" : [   "Elder Scrolls II: Daggerfalls",
+                        "World of Warcraft",
+                        "Runescape"],
+        "correct_answer" : "0"
+    }]
+}

@@ -1,0 +1,218 @@
+/**
+* main.less
+* The styles in this file represent all basic styles for the <QUIZWARS> app.
+*
+* @project   QUIZ WARS
+* @date      2014-11-15
+* @author    JOAN MIRA, SapientNitro <JMIRA@sapient.com>
+* @licensor  INTERNAL PROJECT
+*
+*/
+
+body {
+	background: url(../images/bg-body.jpg);
+  	text-align: center;
+
+  	a {
+  		color: @linkColor;
+  	}
+
+  	#logo {
+  		background: url(../images/logo.png) no-repeat;
+  		display: block;
+  		width: 154px;
+  		height: 193px;
+  		margin: 20px auto;
+  	}
+
+  	header h1 {
+		color: #FFF;
+	}
+
+	.info {
+		background: url(../images/lightbulb.png) no-repeat center left;
+		padding-left: 20px;
+		display: inline-block;
+	}
+
+	#login-form, #signup-form {
+		margin: 20px auto;
+		max-width: 280px;
+		text-align: left;
+	}
+
+	#signup {
+		display: none;
+	}
+
+	.box {
+		background: url(../images/bg-lighter-noise.jpg);
+		border: 1px solid #CCC;
+		border-radius: 5px;
+		margin: 5px auto;
+		padding: 10px;
+		max-width: 400px;
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+
+		@media screen and (min-width: @desktop) {
+			min-height: 500px;
+		}
+
+		.box-content {
+
+			@media screen and (min-width: @tablet) {
+				min-height: 220px;
+			}
+		}
+	}
+
+	#chat-panel {
+		@media screen and (min-width: @tablet) {
+			max-width: 804px;
+		}
+
+		@media screen and (min-width: @desktop) {
+			max-width: 400px;
+		}
+	} 
+
+	#users-list {
+		margin: 20px 0;
+	}
+
+	#rules {
+		display: none;
+		text-align: left;
+		margin: 20px auto;
+		width: 100%;
+		padding-left: 20px;
+	}
+
+	#messages, #message {
+		display: block;
+		margin: 2px auto;
+	}
+
+	#messages {
+		min-height: 200px;
+		font-size: 12px;
+		font-family: monospace;
+
+		@media screen and (min-width: @desktop) {
+			height: 435px;
+		}
+	}
+
+	#startQuiz {
+		margin-left: 10px;
+	}
+
+	table {
+		text-align: left;
+
+		.button {
+			width: 30px;
+		}
+	}
+
+	#status-table {
+		margin: 20px auto 8px auto;
+
+		tbody tr td {
+			padding: 5px 8px;
+		}
+
+		.flag {
+			margin-right: 10px;
+		}
+
+		.status {
+			display: inline-block;
+			margin-right: 10px;
+		}
+	}
+
+	#quiz-settings {
+		#quiz-dropdown {
+			margin-bottom: 10px;
+		}
+
+		#amount {
+			width: 40px;
+			margin-bottom: 10px;
+		}
+	}
+
+	#quiz {
+		display: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+
+		h4, input {
+			text-align: left;
+		}
+
+		#author {
+			font-size: 12px;
+			color: #555;
+		}
+
+		input[type="radio"] {
+			margin-top: -1px;
+			vertical-align: middle;
+		}
+
+		#question {
+			font-size: 14px;
+			line-height: 20px;
+		}
+
+		#questions {
+			width: 100%;
+
+			td {
+				text-align: left;
+				padding: 8px;
+			}
+		}
+
+		#quiz-status {
+			margin-top: 10px;
+
+			#countdown {
+				font-weight: bold;
+
+				&.start {
+					font-size: 80px;
+				}
+			}
+		}
+
+		#question-winner {
+			background: url(../images/check.png) no-repeat center left;
+			padding-left: 20px;
+		}	
+	}
+
+	#winner {
+		display: none;
+
+		#winner-image {
+			width: 100%;
+			min-height: 300px;
+			max-width: 500px;
+			display: block;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-position: center center;
+			margin: 0 auto 20px auto;
+
+			&.no-one-wins {
+				background-image: url(../images/no-one-wins.jpg);
+			}
+		}
+	}
+}

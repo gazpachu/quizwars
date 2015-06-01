@@ -1,0 +1,137 @@
+{
+    "title": "Photography Quiz",
+    "author": "Chapman Lee",
+    "questions": [{
+        "question" : "The first pinhole camera principles were documented by Chinese philosopher Mozi in which year?",
+        "answers" : [	"500BC",
+        				"400BC",
+        				"1011AD"],
+        "correct_answer" : "1"
+    }, {
+    	"question" : "The first camera obscura, the grandfather of all cameras was developed in which year?",
+        "answers" : [	"1500",
+        				"1024",
+        				"1011",
+        				"1849"],
+        "correct_answer" : "2"
+    }, {
+    	"question" : "What is the actual name of the famous camera company Kodak?",
+        "answers" : [	"Kodak Photography LTD.",
+        				"FujiFilm",
+        				"Kodak",
+        				"Eastman Kodak Company"],
+        "correct_answer" : "3"
+    }, {
+    	"question" : "What does SLR stand for?",
+        "answers" : [	"Single Lens Reflex",
+        				"Slanted Lens Reflector",
+        				"Standard Lens Reflection"],
+        "correct_answer" : "0"
+    }, {
+    	"question" : "What does the shutter speeds in a camera do?",
+        "answers" : [	"Regulates how much light the film gets exposed to",
+        				"Regulates how long the film gets exposed",
+        				"Controls how loud the camera sound is when a photo is taken"],
+        "correct_answer" : "1"
+    }, {
+    	"question" : "What does the f-stop in a camera do?",
+        "answers" : [	"Regulates how much light the film gets exposed to",
+                        "Regulates how long the film gets exposed",
+                        "Controls how loud the camera sound is when a photo is taken"],
+        "correct_answer" : "0"
+    }, {
+    	"question" : "Who is James Maxwell?",
+        "answers" : [	"He took the first coloured photo",
+        				"He took the first Paranoma photo",
+        				"He invented the first mobile camera phone"],
+        "correct_answer" : "0"
+    }, {
+    	"question" : "What year was the first colour photo taken?",
+        "answers" : [	"1907",
+        				"1926",
+        				"1889",
+        				"1861"],
+        "correct_answer" : "3"
+    }, {
+    	"question" : "What is the most famous use of the Hasselblad camera?",
+        "answers" : [	"Used in the Apollo program",
+        				"Used to film Micheal Bay's Transformers",
+        				"Used in World War 2 to find enemy U-boats underwater"],
+        "correct_answer" : "0"
+    }, {
+    	"question" : "Photographer Kevin Carter commited suicide after winning a Pulitzer Prize because?",
+        "answers" : [	"He took the worlds happiest photo",
+        				"He took the worlds scariest photo",
+        				"He took the worlds first ghost photo",
+        				"He took the worlds saddist photo"],
+        "correct_answer" : "3"
+    }, {
+        "question" : "Which company invented the first digital camera?",
+        "answers" : [   "Sony",
+                        "Olympus",
+                        "Nikon",
+                        "Kodak"],
+        "correct_answer" : "3"
+    }, {
+        "question" : "What happened to the worlds earliest surviving photograph?",
+        "answers" : [   "It was destroyed in a fire",
+                        "It was stolen",
+                        "It was lost for 50 years before being rediscovered"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "Why were photographic prints sepia toned?",
+        "answers" : [   "For improved resistance",
+                        "Sepia process was cheaper than black and white",
+                        "It's the effect of exposure to sunlight"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "The worlds fastest camera was built to take photos of what?",
+        "answers" : [   "Rocket Launchs",
+                        "Formula 1",
+                        "Space",
+                        "Nuclear Bomb Explosions"],
+        "correct_answer" : "3"
+    }, {
+        "question" : "In which year was the earliest surviving photograph created?",
+        "answers" : [   "1912",
+                        "1897",
+                        "1826",
+                        "1945"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "How many Hasselblad cameras were left on the moon?",
+        "answers" : [   "1",
+                        "18",
+                        "12",
+                        "8"],
+        "correct_answer" : "2"
+    }, {
+        "question" : "What does ATGNI stand for?",
+        "answers" : [   "All The Gear, No Idea",
+                        "Anything That Gives Noise in Images",
+                        "Anti Tremor Glare Noise Image"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "What does Bokeh mean?",
+        "answers" : [   "Blur in out-of-focus areas",
+                        "A ring of shadow around the photo",
+                        "Broken Gear",
+                        "Borrowed Gear"],
+        "correct_answer" : "0"
+    }, {
+        "question" : "What is a Nifty Fifty?",
+        "answers" : [   "The pre-set camera setting for taking landscape photos",
+                        "When a new folder is created after every 50 images taken",
+                        "The best angle to take a photo",
+                        "A 50mm lens"],
+        "correct_answer" : "3"
+    }, {
+        "question" : "What does the term 'UWA' mean?",
+        "answers" : [   "A wedding guest who comes with a big expensive camera",
+                        "Under Water Aperture Setting",
+                        "Ultra Wide Angle Lens",
+                        "Someone who carries expensive equipment but dosen't know how to use it"],
+        "correct_answer" : "2"
+    
+    }]
+}

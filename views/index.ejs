@@ -1,0 +1,51 @@
+<div class="container-fluid">
+    <div class="col-md-12">
+        <div class="box">
+        	<div class="box-content">
+	            <% if (req.session.me) { %>
+	                <a href="/quiz">Quiz</a> | <a href="/logout">Logout</a>
+	            <% } else { %>
+	            	<div id="login">
+		                <h1>Login</h1>
+						<form id="login-form" role="form" action="/login" method="post" data-parsley-validate>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input name="email" id="email" type="email" class="form-control" placeholder="Enter email" data-parsley-trigger="change" required />
+							</div>
+							<div class="form-group">
+								<label for="password">Password</label>
+								<input name="password" id="password" type="password" class="form-control" placeholder="Password" required />
+							</div>
+							<button type="submit" class="btn btn-default">Sign in</button>
+						</form>
+		                <p><a id="signup-cta" href="#signup">Not yet registered? Signup now</a></p>
+		            </div>
+		            <div id="signup">
+		                <h1>Signup</h1>
+						<form id="signup-form" role="form" action="/signup" method="post" data-parsley-validate>
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input name="name" id="name" type="text" class="form-control" placeholder="Enter name" data-parsley-trigger="keyup" data-parsley-maxlength="30" required />
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input name="email" id="email" type="email" class="form-control" placeholder="Enter email" data-parsley-trigger="change" required />
+							</div>
+							<div class="form-group">
+								<label for="password">Password</label>
+								<input name="password" id="password" type="password" class="form-control" placeholder="Password" data-parsley-trigger="keyup" data-parsley-minlength="6" data-parsley-maxlength="30" required />
+							</div>
+							<div class="form-group">
+								<label for="avatar">Winner GIF</label>
+								<p class="help-block">This image will be displayed to everyone if you win the quiz. <a href="https://www.google.co.uk/search?q=winner+gif&es_sm=122&source=lnms&tbm=isch&sa=X&ei=WiluVKLcDdD7aqXWgagC&ved=0CAgQ_AUoAQ&biw=1920&bih=955" target="_blank">Here are some examples.</a></p>
+								<input name="avatar" id="avatar" type="text" class="form-control" placeholder="Paste GIF URL" />
+							</div>
+							<button type="submit" class="btn btn-default">Sign up</button>
+						</form>
+		                <p><a id="login-cta" href="#login">Already registered? Sign in</a></p>
+		            </div>
+	            <% } %>
+	        </div>
+	    </div>
+    </div>
+</div>
